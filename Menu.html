@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bite_box</title>
+    <link rel="stylesheet" href="Css/style.css">
+    <script src="Js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="Assests/logo.jpg" alt="bite box logo " width="150" height="100" class="logo"> 
+    
+    
+    <!--creating links -->
+    <nav>
+        <a href="index.html">Home</a>|
+        <a href="Cart.html">Cart</a>|
+        <a href="Menu.html">Menu</a>|
+        <a href="Contact.html">Contact</a>|
+        <a href="login.html">Login</a>
+        <button type="button" id="theme-toggle" aria-label="switch to dark mode" aria-pressed="false">
+            <span class="theme-icon" aria-hidden="true">&#9728;</span>
+            <span class="theme-text">Dark Mode</span>
+        </button>
+         
+        
+        
+        
+    </nav>
+    
+      </header>
+      <hr>
+      <!--header end-----------
+      main start--------------->
+        <section id="menu-hero">
+          <h1>d3elicious food on your door step</h1>
+          <p>Fresh food </p>
+
+        </section>
+
+        <!---adding serching button-->
+
+        <form class="menu-search" id="menu-search-form" role = " search">
+            <input type="search" id="menu-search" placeholder="Search for dishes...">
+            <button type="submit" id="search-button">Search</button>
+
+        </form>
+<!--end searh button-->
+
+        <!--creating category section-->
+        <section id="categories">
+    
+        <h2>Our Popular categories</h2>
+<article>
+        <img src="Assests/burger.jpg" alt="burger" width="250" height="180">
+        <h3>cheesy Burger</h3>
+        
+</article>
+<article>
+        <img src="Assests/pasta.jpg" alt="pasta" width="250" height="180">
+        <h3>veggies pizza</h3>
+        
+</article>
+<article>
+        <img src="Assests/pizza.jpg" alt="pizza" width="250" height="180">
+        <h3>itlian pasta</h3>
+        
+        </article>
+        </section>
+
+
+        <!---section for our menus-->
+       <section id="menu-items">
+<h2>Our Menu</h2>
+<div>
+<article>
+<img src="Assests/burger.jpg"  alt="burger" width="200" height="180">
+<h3>Cheesy Burger</h3>
+<p> <span>&#9733;&#9733;&#9733;&#9733;</span> $6.00</p>
+<button>Order Now</button>
+</article>
+
+<article>
+<img src="Assests/pizza.jpg"  alt="pizza" width="200" height="180">
+<h3>Veggie Pizza</h3>
+<p> <span>&#9733;&#9733;&#9733;&#9733;</span> $10.00</p>
+<button>Order Now</button>
+</article>
+<article>
+<img src="Assests/pasta.jpg"  alt="pasta" width="200" height="180">
+<h3>Italian Pasta</h3>
+<p> <span>&#9733;&#9733;&#9733;&#9733;</span> $8.00</p>
+<button>Order Now</button>
+</article>
+
+
+</div>
+       </section>
+        
+  
+
+<button id="add-menu-btn" type="button">
++ Add Menu Item
+</button>
+
+<div id="menu-container">
+<!--existing hard coded menu cards-->
+</div>
+
+<div id="menu-modal">
+<form id="menu-form">
+<h2 id="modal-title">Add Menu Item</h2>
+
+<input id="menu-name" placeholder="Name" required>
+<input id="menu-price" type="number" placeholder="Price" required>
+<input id="menu-category" placeholder="Category" required>
+<input id="menu-rating" placeholder="Rating" required>
+<input id="menu-reviews" type="number" placeholder="Reviews" required>
+<input id="menu-image" placeholder="Image URL" required>
+
+<button type="submit">Save</button>
+<button type="button" id="cancel-menu-form">Cancel</button>
+</form>
+</div>
+
+<!--offer start-->
+
+<!--todays special offer-->
+    <section id="offer">
+    <div class="offer-content">
+    
+    <h2>Today's Special Offer</h2>
+     <p>Get <b>20% OFF</b> on your <u>first order</u></p>
+     <strong>499</strong>
+     <p>Use Code<strong>SAVE20</strong></p>
+     <a href="menu.html">Order Now</a>  
+     <p>Offer Valid for a limited time only</p>
+     </div>
+    </section>
+
+
+<!---footer started-->
+<footer class="footer">
+    <div class="footer-container"> ''
+
+        <!-- About BiteBox -->
+        <section class="footer-about">
+            <img src="Assests/logo.jpg" alt="BiteBox Logo" width="180">
+
+            <p>
+                Delicious food delivered to your doorstep.
+                Fresh, fast and tast ....!
+            </p>
+
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook">
+                    <img src="Assests/facebook" alt="Facebook">
+                </a>
+                <a href="#" aria-label="Instagram">
+                    <img src="Assests/insta" alt="Instagram">
+                </a>
+                <a href="#" aria-label="Twitter">
+                    <img src="Assests/twitter.png" alt="Twitter">
+                </a>
+                
+            </div>
+        </section>
+
+        <!-- Quick Links -->
+        <section class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </section>
+
+        <!-- Contact Information -->
+        <section class="footer-contact">
+            <h3>Contact Us</h3>
+            <p>&#128222; +91 98765 43210</p>
+            <p>✉ support@bitebox.com</p>
+            <p>123 Food Street, Mumbai, Maharashtra 400001</p>
+        </section>
+
+        <!-- Opening Hours -->
+        <section class="footer-hours">
+            <h3>Opening Hours</h3>
+            <p>Monday - Sunday</p>
+            <p>10:00 AM - 9:00 PM</p>
+        </section>
+
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-bottom">
+        <p>&copy; 2026 BiteBox. All Rights Reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
