@@ -89,7 +89,7 @@ body.home img {
 
 .home .btn-ghost:hover {
     background-color: #ffffff;
-    color: var(--text);
+    color: #2b1d16;
 }
 
 .home .btn-outline {
