@@ -906,6 +906,8 @@
 
     .home-page nav.open {
         display: flex;
+        max-height: calc(100vh - 70px);
+        overflow-y: auto;
     }
 
     .home-page nav a,
