@@ -3,210 +3,261 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bite_box</title>
-    <link rel="stylesheet" href="Css/style.css">
+    <title>Bite Box | Delicious Food Delivered</title>
+    <meta name="description" content="Bite Box - fresh, hot and delicious meals delivered to your doorstep.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-<script src="Js/script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/home.css">
+    <script src="Js/script.js" defer></script>
 </head>
 
-<body>
-    <header>
-        <img src="Assests/logo.jpg" alt="bite box logo " width="150" height="100" class="logo"> 
-    
-    
-    <!--creating links -->
-    <nav>
-        <a href="index.html">Home</a>|
-        <a href="Cart.html">Cart</a>|
-        <a href="Menu.html">Menu</a>|
-        <a href="Contact.html">Contact</a>|
-        <a href="login.html">Login</a>
-        
-        <button type="button" id="theme-toggle" aria-label="switch to dark mode" aria-pressed="false">
-            <span class="theme-icon" aria-hidden="true">&#9728;</span>
-            <span class="theme-text"> Dark Mode</span>
-        </button>
-        
-        
-        
-    </nav>
-    
-      </header>
-      
-        <section id="home-hero">
-            <h1> delicious food delivered to your <span>doorstep</span></h1>
-            <p>Fresh fruits and vegitables delivered to your doorstep</p>
-            <div class="hero-button">
-            |
-            <a href="menu.html" class="menu-btn">order now</a>
-            |
-            <a href="Menu.html" class="order-btn">explore menu</a>
-            |
+<body class="home">
+    <header class="site-header">
+        <a href="index.html" class="brand" aria-label="Bite Box home">
+            <img src="Assests/logo.jpg" alt="Bite Box logo" width="56" height="56" class="logo">
+            <span>Bite<em>Box</em></span>
+        </a>
+
+        <nav aria-label="Main navigation">
+            <a href="index.html" class="active" aria-current="page">Home</a>
+            <a href="Menu.html">Menu</a>
+            <a href="About.html">About</a>
+            <a href="Contact.html">Contact</a>
+            <a href="Cart.html" class="nav-cart">Cart</a>
+            <a href="login.html" class="nav-login">Login</a>
+
+            <button type="button" id="theme-toggle" aria-label="switch to dark mode" aria-pressed="false">
+                <span class="theme-icon" aria-hidden="true">&#9728;</span>
+                <span class="theme-text">Dark Mode</span>
+            </button>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-inner reveal">
+            <span class="eyebrow">Hot &amp; fresh in 30 minutes</span>
+            <h1>Delicious food delivered to your <span>doorstep</span></h1>
+            <p>Handcrafted burgers, wood-fired pizzas and creamy pastas made with the freshest ingredients &mdash; straight from our kitchen to your table.</p>
+            <div class="hero-actions">
+                <a href="Menu.html" class="btn btn-primary">Order Now</a>
+                <a href="Menu.html" class="btn btn-ghost">Explore Menu &rarr;</a>
             </div>
-        </section>
-<section id="features">
-<h2>Why Choose Bite Box ?</h2>
-<article class="feature-card">
-<img src="Assests/fresh image.jpg" width="80" alt="Fresh Ingredients">
-<h3>Fresh Ingredients</h3>
-<p>We use only the freshest ingredients to prepare our meals</p>
-</article>
-
-<article  class="feature-card">
-<img src="Assests/fast delivery.jpg" width="80" alt="Fresh Ingredients">
-<h3>Fast Delivery</h3>
-<p> we will delivery  your meal to your door step quickly</p>
-</article>
-<article  class="feature-card">
-<img src="Assests/hygnic kit.jpg" width="80" alt="Fresh Ingredients">
-<h3>hyginic kitchen</h3>
-<p>our kitchen and kitchen staff is so hyginic like your home kitchen</p>
-</article>
-<article  class="feature-card">
-<img src="Assests/easy order.jpg" width="80" alt="Fresh Ingredients">
-<h3>easy online ordering</h3>
-<p> order your meal in single click</p>
-</article>
-</section>
-<!----********************************************************************************************--> 
-
-
-
-<main>
-<section id="popular-dishes">
-<h2>popular disshes</h2>
-<article>
-<img src="Assests/pasta.jpg" width="80" alt="Fresh Ingredients">
-<h3>pasta</h3>
-<p>We use only the freshest ingredients to prepare our meals, ensuring that</p>
-    <strong>price:</strong>$6.00
-</article>
-
-<article>
-<img src="Assests/pizza.jpg" width="80" alt="Fresh Ingredients">
-<h3>pizza</h3>
-<p> we will delivwry your meal to your door step quickly</p>
-<strong>price:</strong>$6.00
-</article>
-
-<article>
-<img src="Assests/burger.jpg" width="80" alt="Fresh Ingredients">
-<h3>burger</h3>
-<p>We use only the freshest ingredients to prepare our meals, ensuring that</p>
-    <strong>price:</strong>$6.00
-</article>
-
-<article>
-<img src="Assests/pizza.jpg" width="80" alt="Fresh Ingredients">
-<h3>pizza</h3>
-<p> order your meal online is never been easier with our user frindely interface</p>
-<strong>price:</strong>$6.00
-</article>
-</section>
- 
-    
-
-    
-    <!-----todays special offer-->
-<section id="offer">
-    <div class="offer-content">
-
-
-    <h2>Todays special offer</h2>
-
-    <p>Get <b>20% OFF</b>on your <u>first order</u></p>
-<strong>499</strong>
-<p>use code <strong>save 20%</strong></p>
-<a href="Menu.html">order now</a>
-
-    <p>offer valid for limited time only</p>
-     
-    
-    </div>
-    </section>
-    <section id="review">
-        <h2>Customer Reviews</h2>
-<article>
-<img src="Assests/review1" width="80" alt="Customer 1">
-<h3>John Doe</h3>
-<p>"The food was absolutely delicious! I will definitely be ordering from Bite</p>
-<span>&#9733;&#9733;&#9733;&#9733;</span>
-</article>
-<article>
-<img src="Assests/review2" width="80" alt="Customer 1">
-<h3>Harry Doe</h3>
-<p>"The food was absolutely delicious! I will definitely be ordering from Bite Bo</p>
-<span>&#9733;&#9733;&#9733;</span>
-</article>
-<article>
-<img src="Assests/review3" width="80" alt="Customer 1">
-<h3>Jane Doe</h3>
-<p>"The food was absolutely delicious! I will definitely be ordering from Bite Bo</p>
-
-| <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-
-    </article>
-    </section>
-    <footer class="footer">
-    <div class="footer-container">
-
-        <!-- About BiteBox -->
-        <section class="footer-about">
-            <img src="Assests/logo.jpg" alt="BiteBox Logo" width="180">
-
-            <p>
-                Delicious food delivered to your doorstep.
-                Fresh, fast and tasty!
-            </p>
-
-            <div class="social-icons">
-                <a href="#" aria-label="Facebook">
-                    <img src="Assests/facebook" alt="Facebook">
-                </a>
-                <a href="#" aria-label="Instagram">
-                    <img src="Assests/insta" alt="Instagram">
-                </a>
-                <a href="#" aria-label="Twitter">
-                    <img src="Assests/twitter.png" alt="Twitter">
-                </a>
-                
-            </div>
-        </section>
-
-        <!-- Quick Links -->
-        <section class="footer-links">
-            <h3>Quick Links</h3>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Cart.html">Cart</a></li>
-                <li><a href="Menu.html">Menu</a></li>
-                <li><a href="Contact.html">Contact</a></li>
+            <ul class="hero-stats">
+                <li><strong>10k+</strong><span>Happy customers</span></li>
+                <li><strong>4.8&#9733;</strong><span>Average rating</span></li>
+                <li><strong>30 min</strong><span>Avg. delivery</span></li>
             </ul>
+        </div>
+    </section>
+
+    <main>
+        <section class="section features" id="features-home">
+            <div class="section-head reveal">
+                <span class="eyebrow">Why us</span>
+                <h2>Why Choose Bite Box?</h2>
+                <p>Everything you love about a great meal, without leaving home.</p>
+            </div>
+            <div class="grid grid-4">
+                <article class="feature-card reveal">
+                    <img src="Assests/fresh image.jpg" alt="Fresh vegetables" width="88" height="88">
+                    <h3>Fresh Ingredients</h3>
+                    <p>We use only the freshest, locally sourced ingredients in every meal.</p>
+                </article>
+                <article class="feature-card reveal">
+                    <img src="Assests/fast delivery.jpg" alt="Delivery rider" width="88" height="88">
+                    <h3>Fast Delivery</h3>
+                    <p>Your food arrives hot and on time, right at your doorstep.</p>
+                </article>
+                <article class="feature-card reveal">
+                    <img src="Assests/hygnic kit.jpg" alt="Clean kitchen" width="88" height="88">
+                    <h3>Hygienic Kitchen</h3>
+                    <p>Our kitchen and staff follow strict hygiene &mdash; just like your home kitchen.</p>
+                </article>
+                <article class="feature-card reveal">
+                    <img src="Assests/easy order.jpg" alt="Easy ordering" width="88" height="88">
+                    <h3>Easy Online Ordering</h3>
+                    <p>Browse, tap and order your favourite meal in a single click.</p>
+                </article>
+            </div>
         </section>
 
-        <!-- Contact Information -->
-        <section class="footer-contact">
-            <h3>Contact Us</h3>
-            <p>&#128222; +91 98765 43210</p>
-            <p>✉ support@bitebox.com</p>
-            <p>123 Food Street, Mumbai, Maharashtra 400001</p>
+        <section class="section dishes" id="popular-dishes-home">
+            <div class="section-head reveal">
+                <span class="eyebrow">Fan favourites</span>
+                <h2>Popular Dishes</h2>
+                <p>The meals our customers order again and again.</p>
+            </div>
+            <div class="grid grid-3">
+                <article class="dish-card reveal">
+                    <div class="dish-img">
+                        <img src="Assests/burger.jpg" alt="Cheesy burger" width="400" height="260">
+                        <span class="badge">Bestseller</span>
+                    </div>
+                    <div class="dish-body">
+                        <div class="dish-title">
+                            <h3>Cheesy Burger</h3>
+                            <span class="rating">&#9733; 4.8</span>
+                        </div>
+                        <p>Juicy grilled patty, melted cheddar, fresh lettuce and our secret sauce.</p>
+                        <div class="dish-footer">
+                            <span class="price">$6.00</span>
+                            <a href="Menu.html" class="btn btn-small">Add to Cart</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="dish-card reveal">
+                    <div class="dish-img">
+                        <img src="Assests/pizza.jpg" alt="Veggie pizza" width="400" height="260">
+                        <span class="badge badge-green">Veg</span>
+                    </div>
+                    <div class="dish-body">
+                        <div class="dish-title">
+                            <h3>Veggie Pizza</h3>
+                            <span class="rating">&#9733; 4.7</span>
+                        </div>
+                        <p>Stone-baked crust loaded with mozzarella, bell peppers, olives and onions.</p>
+                        <div class="dish-footer">
+                            <span class="price">$10.00</span>
+                            <a href="Menu.html" class="btn btn-small">Add to Cart</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="dish-card reveal">
+                    <div class="dish-img">
+                        <img src="Assests/pasta.jpg" alt="Italian pasta" width="400" height="260">
+                        <span class="badge">Chef's pick</span>
+                    </div>
+                    <div class="dish-body">
+                        <div class="dish-title">
+                            <h3>Italian Pasta</h3>
+                            <span class="rating">&#9733; 4.9</span>
+                        </div>
+                        <p>Al dente pasta tossed in a rich, creamy tomato and herb sauce.</p>
+                        <div class="dish-footer">
+                            <span class="price">$8.00</span>
+                            <a href="Menu.html" class="btn btn-small">Add to Cart</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="center">
+                <a href="Menu.html" class="btn btn-outline">View Full Menu</a>
+            </div>
         </section>
 
-        <!-- Opening Hours -->
-        <section class="footer-hours">
-            <h3>Opening Hours</h3>
-            <p>Monday - Sunday</p>
-            <p>10:00 AM - 9:00 PM</p>
+        <section class="section steps">
+            <div class="section-head reveal">
+                <span class="eyebrow">Simple as 1-2-3</span>
+                <h2>How It Works</h2>
+            </div>
+            <ol class="grid grid-3 steps-list">
+                <li class="step reveal">
+                    <span class="step-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></span>
+                    <h3>Choose your meal</h3>
+                    <p>Browse our menu and pick the dishes you are craving.</p>
+                </li>
+                <li class="step reveal">
+                    <span class="step-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2 3h3l2.7 12.4a2 2 0 0 0 2 1.6h7.6a2 2 0 0 0 2-1.6L21 8H6"/></svg></span>
+                    <h3>Place your order</h3>
+                    <p>Add to cart and check out securely in seconds.</p>
+                </li>
+                <li class="step reveal">
+                    <span class="step-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg></span>
+                    <h3>Enjoy at home</h3>
+                    <p>Sit back while we deliver it hot to your doorstep.</p>
+                </li>
+            </ol>
         </section>
 
-    </div>
+        <section class="section offer-wrap">
+            <div class="offer-banner reveal">
+                <div class="offer-text">
+                    <span class="eyebrow eyebrow-light">Today's special offer</span>
+                    <h2>Get <span>20% OFF</span> on your first order</h2>
+                    <p>Use code <code class="coupon">SAVE20</code> at checkout. Offer valid for a limited time only.</p>
+                    <a href="Menu.html" class="btn btn-light">Grab the Deal</a>
+                </div>
+                <img src="Assests/discount.jpg" alt="20% discount" class="offer-img" width="260" height="260">
+            </div>
+        </section>
 
-    <!-- Copyright -->
-    <div class="footer-bottom">
-        <p>&copy; 2026 BiteBox. All Rights Reserved.</p>
-    </div>
-</footer>
+        <section class="section reviews-home">
+            <div class="section-head reveal">
+                <span class="eyebrow">Testimonials</span>
+                <h2>What Our Customers Say</h2>
+            </div>
+            <div class="grid grid-3">
+                <article class="review-card reveal">
+                    <div class="stars" aria-label="4 out of 5 stars">&#9733;&#9733;&#9733;&#9733;<span>&#9733;</span></div>
+                    <p>"The food was absolutely delicious! The burger was juicy and arrived piping hot. I will definitely be ordering from Bite Box again."</p>
+                    <div class="reviewer">
+                        <img src="Assests/review1" alt="John Doe" width="52" height="52">
+                        <div><h3>John Doe</h3><span>Mumbai</span></div>
+                    </div>
+                </article>
+                <article class="review-card reveal">
+                    <div class="stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p>"Super quick delivery and the pizza tasted like it came straight out of the oven. Easily my go-to place on weekends."</p>
+                    <div class="reviewer">
+                        <img src="Assests/review2" alt="Harry Doe" width="52" height="52">
+                        <div><h3>Harry Doe</h3><span>Pune</span></div>
+                    </div>
+                </article>
+                <article class="review-card reveal">
+                    <div class="stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p>"Fresh ingredients, generous portions and a super easy ordering experience. The pasta is a must-try!"</p>
+                    <div class="reviewer">
+                        <img src="Assests/review3" alt="Jane Doe" width="52" height="52">
+                        <div><h3>Jane Doe</h3><span>Thane</span></div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <section class="footer-about">
+                <img src="Assests/logo.jpg" alt="BiteBox Logo" width="120">
+                <p>Delicious food delivered to your doorstep. Fresh, fast and tasty!</p>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><img src="Assests/facebook" alt="Facebook"></a>
+                    <a href="#" aria-label="Instagram"><img src="Assests/insta" alt="Instagram"></a>
+                    <a href="#" aria-label="Twitter"><img src="Assests/twitter.png" alt="Twitter"></a>
+                </div>
+            </section>
+
+            <section class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Menu.html">Menu</a></li>
+                    <li><a href="Cart.html">Cart</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </section>
+
+            <section class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>&#128222; +91 98765 43210</p>
+                <p>&#9993; support@bitebox.com</p>
+                <p>&#128205; 123 Food Street, Mumbai, Maharashtra 400001</p>
+            </section>
+
+            <section class="footer-hours">
+                <h3>Opening Hours</h3>
+                <p>Monday - Sunday</p>
+                <p>10:00 AM - 9:00 PM</p>
+            </section>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 BiteBox. All Rights Reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
