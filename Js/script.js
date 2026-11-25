@@ -459,6 +459,7 @@ fetchMenuItems();
 const revealElements = document.querySelectorAll(".reveal");
 if (revealElements.length) {
     if ("IntersectionObserver" in window) {
+        document.body.classList.add("reveal-ready");
         const revealObserver = new IntersectionObserver(function (entries) {
             entries.forEach(function (entry) {
                 if (entry.isIntersecting) {
